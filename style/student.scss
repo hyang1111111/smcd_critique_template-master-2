@@ -1,0 +1,28 @@
+.button_container {
+  background-color: black;
+  .button_section {
+    display: flex;
+    margin-inline: 400px;
+    padding-block: 20px;
+    justify-content: center;
+    gap: 32px;
+  }
+}
+
+.text {
+  padding-block: 16px;
+  color: #fffffe;
+  text-align: center;
+  font-family: Eulyoo1945;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%; /* 34px */
+  a {
+    color: #272727;
+  }
+}
+
+a:hover {
+  opacity: 30%;
+}
